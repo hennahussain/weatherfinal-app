@@ -1,0 +1,79 @@
+body {
+  background-image: url("images/blacksand.jpg");
+  font-family: "Fredericka the Great", cursive;
+  margin: 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2;
+}
+h3 {
+  display: block;
+  padding-top: 0;
+}
+p {
+  text-align: center;
+  font-size: 80px;
+}
+span {
+  text-align: center;
+}
+.background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-container {
+  background-image: linear-gradient(rgb(255, 255, 252), rgb(46, 47, 75));
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  border: 2px solid rgb(75, 74, 74);
+  border-radius: 15px;
+}
+.searchrow {
+  background-image: none;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 100;
+}
+.citysearch {
+  background-image: none;
+  background-color: transparent;
+}
+.cityinfo-left {
+  list-style: none;
+}
+.weatherdetails {
+  text-align: left;
+  font-size: 23px;
+  list-style: none;
+  padding-left: 85px;
+}
+.dailytemp {
+  color: rgba(235, 227, 227, 0.493);
+  font-size: 375px;
+  display: inline;
+  margin: 0 auto;
+}
+.center-temp {
+  font-size: 80px;
+}
+.units {
+  font-size: 65px;
+}
+.day {
+  color: rgb(247, 244, 244);
+}
+.temp,
+.Time {
+  color: rgb(148, 146, 146);
+  text-align: center;
+  font-size: 15px;
+}
+.icon {
+  font-size: 50px;
+  color: rgb(184, 179, 179);
+}
